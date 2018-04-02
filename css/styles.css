@@ -1,40 +1,64 @@
 #showLocation{
   display: none;
+  padding: 15px;
+  background-color: rgb(173, 173, 211,0.80);
+  border-radius: 5px;
+  font-family: 'Josefin Slab', sans-serif;
+  color: white;
+  font-size: 24px;
+}
+.listBold{
+  font-weight: bold;
+  font-size: 28px;
+}
 
+.form-control {
+  background-color: rgb(231, 206, 187,0.50);
+  margin-bottom: 2px;
 }
+
 h2{
-  cursor: pointer;
-  color: Purple;
+  color: Teal;
+  text-shadow: 2px 1px #ffffff;
+  background-color: rgb(255,255,255,0.60);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Josefin Slab', sans-serif;
 }
-.location:hover{
+#loc:hover{
+  cursor: pointer;
   text-decoration: underline;
 }
 .jumbotron{
   text-align: center;
-  background-color:  rgb(113, 193, 222);
+  background-color:  rgb(113, 193, 222,0.80);
+  border-radius: 15px;
+  /*max-width: 100%;
+  max-height: 10%;*/
 }
-
+#loc{
+  font-family: 'Marcellus SC', sans-serif;
+  font-size: 28px;
+}
+button{
+  margin-bottom: 50px;
+}
+#localList{
+  background-color: rgb(255, 255, 255,0.6);
+  border-radius: 5px;
+}
+html, body {
+    min-height: 100%;
+  }
 body {
-  /*background-color: rgb(241, 241, 241);*/
-  background-image: url("../img/background.jpg");
-  /*background-position-x: center;*/
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-image: url(../img/background.jpg);
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 
-#location{
-  background-color: rgba(108, 186, 213,0.80);
-}
-#landmarks{
-  background-color: rgb(108, 186, 213,0.80);
-}
-#timeOfYear{
-  background-color: rgb(108, 186, 213,0.80);
-}
-#notes{
-  background-color: rgb(233, 224, 145,0.80);
-  font-family: fantasy;
-}
+
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { ... }

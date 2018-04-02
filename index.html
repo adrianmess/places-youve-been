@@ -5,16 +5,16 @@
     <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Marcellus+SC" rel="stylesheet">
     <title>Places You've Been</title>
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <img src="img/title.png" alt="">
+    <div class="container containter-fluid">
+      <div class="jumbotron jumbotron-fluid">
+        <img src="img/title.png" id="backround">
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
         <h2>Add A Place:</h2>
           <form id="newPlace">
             <div class="form-group">
@@ -25,16 +25,18 @@
             </div>
             <button class="btn" type="submit" name="button">Submit!</button>
           </form>
-          <h2>Locations:</h2>
-          <ul id="loc">
-          </ul>
+          <div id="localList">
+            <h2>Locations:</h2>
+            <ul id="loc">
+            </ul>
+          </div>
         </div>
-      <div class="col-md-6">
+      <div class="col-md-8">
         <div id="showLocation">
-          <p>Location: <span class ="location"></span></p>
-          <p>Landmarks: <span class="landmarks"></span></p>
-          <p>Time of year: <span class = "time-of-year"></span></p>
-          <p>Other notes: <span class="notes"></span></p>
+          <p><span class="listBold">Location:</span> <span class ="location"></span></p>
+          <p><span class="listBold">Landmarks:</span> <span class="landmarks"></span></p>
+          <p><span class="listBold">Time of year:</span> <span class = "time-of-year"></span></p>
+          <p><span class="listBold">Other notes:</span> <span class="notes"></span></p>
         </div>
       </div>
     </div>
