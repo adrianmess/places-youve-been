@@ -9,6 +9,35 @@
     <title>Places You've Been</title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="jumbotron">
+        <img src="img/title.png" alt="">
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+        <h2>Add A Place:</h2>
+          <form id="newPlace">
+            <div class="form-group">
+              <input type="text" class="form-control" id="location" placeholder="Where you've been">
+              <input type="text" class="form-control" id="landmarks" placeholder="Local landmarks">
+              <input type="text" class="form-control" id="timeOfYear" placeholder="What time of year it was">
+              <input type="text" class="form-control" id="notes" placeholder="Additional notes">
+            </div>
+            <button class="btn" type="submit" name="button">Submit!</button>
+          </form>
+          <h2>Locations:</h2>
+          <ul id="loc">
+          </ul>
+        </div>
+      <div class="col-md-6">
+        <div id="showLocation">
+          <p>Location: <span class ="location"></span></p>
+          <p>Landmarks: <span class="landmarks"></span></p>
+          <p>Time of year: <span class = "time-of-year"></span></p>
+          <p>Other notes: <span class="notes"></span></p>
+        </div>
+      </div>
+    </div>
+    </div>
   </body>
 </html>

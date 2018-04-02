@@ -1,0 +1,31 @@
+#showLocation{
+  display: none;
+}
+h2{
+  cursor: pointer;
+  color: Purple;
+}
+.location:hover{
+  text-decoration: underline;
+}
+.jumbotron{
+  text-align: center;
+  background-color:  rgb(113, 193, 222);
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+#location{
+  background-color: rgba(108, 186, 213,0.15);
+}
+#landmarks{
+  background-color: rgb(108, 186, 213,0.20);
+}
+#timeOfYear{
+  background-color: rgb(108, 186, 213,0.25);
+}
+#notes{
+  background-color: rgb(233, 224, 145,0.30);
+  font-family: fantasy;
+}

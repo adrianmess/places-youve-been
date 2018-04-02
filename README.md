@@ -8,15 +8,14 @@ Week 4
 ###### By ** Adrian & Ami**
 
 ## Description
-#### Address Book application to store contact information for our friends and acquaintances.
-
+#### A website to keep track of all the places you've been
 *
 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| 
-|
+| Each destination should be an object with multiple properties, like location, landmarks, time of year, notes, etc. | Location: Tahiti | Output: Tahiti
+| Display those properties when a user clicks on a place's name.
 
 ## Project github link
 
