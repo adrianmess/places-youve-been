@@ -1,5 +1,6 @@
 #showLocation{
   display: none;
+
 }
 h2{
   cursor: pointer;
@@ -14,18 +15,32 @@ h2{
 }
 
 body {
-  background-color: rgb(241, 241, 241);
+  /*background-color: rgb(241, 241, 241);*/
+  background-image: url("../img/background.jpg");
+  /*background-position-x: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 #location{
-  background-color: rgba(108, 186, 213,0.15);
+  background-color: rgba(108, 186, 213,0.80);
 }
 #landmarks{
-  background-color: rgb(108, 186, 213,0.20);
+  background-color: rgb(108, 186, 213,0.80);
 }
 #timeOfYear{
-  background-color: rgb(108, 186, 213,0.25);
+  background-color: rgb(108, 186, 213,0.80);
 }
 #notes{
-  background-color: rgb(233, 224, 145,0.30);
+  background-color: rgb(233, 224, 145,0.80);
   font-family: fantasy;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
